@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuizG1.Score">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Congrats you completed the quiz!" VerticalOptions="Center" HorizontalOptions="Center" Font="22"/>
+            <Button x:Name="R" Text="press to see final score" VerticalOptions="Center" HorizontalOptions="Center" Clicked="ShowS_Button"/>
+            <Label x:Name="displaylabel" Font="20" Text="You scored: "/>
+            <Label Font="20" Text="Out of: 5 possible points"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
